@@ -1,0 +1,7 @@
+geno.txt: genotype file for 400 individuals and 100 SNPs, to be used as the infile of the functions glmm.score.text( ) and glmm.wald.text( )
+GRM.txt.bz2: genetic relationship matrix for 400 individuals, also available in example.rda
+pheno.txt: phenotype and covariate file for 400 individuals, also available in example.rda
+
+In example.rda:
+GRM <- as.matrix(read.table("GRM.txt.bz2"))
+pheno <- read.table("pheno.txt", header = T)

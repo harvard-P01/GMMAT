@@ -1,0 +1,5 @@
+import(Rcpp)
+useDynLib(GMMAT, .registration = TRUE)
+
+# functions
+export(glmmkin, glmm.score.text, glmm.wald.text, glmm.score.bed, glmm.wald.bed)
